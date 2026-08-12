@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+
+# Backend build output
+course-management-backend/course-management-backend/target/
+
+# Frontend build output
+course-management-frontend/course-management-frontend/build/
+
+# Environment variables
+.env
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# Ignore nested git repos inside workspace
+course-management-frontend/course-management-frontend/.git/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# macOS
+._*
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Maven wrapper logs
+.mvn/wrapper/maven-wrapper.log
+
+# JetBrains
+*.iml
+
+# React test coverage
+coverage/
+
+# Local IDE settings
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Misc
+/dist/
