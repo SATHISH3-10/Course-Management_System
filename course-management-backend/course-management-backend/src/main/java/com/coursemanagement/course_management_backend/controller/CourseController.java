@@ -10,7 +10,7 @@ import com.coursemanagement.course_management_backend.service.CourseService;
 
 @RestController
 @RequestMapping("/api/courses")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class CourseController {
 
     @Autowired
