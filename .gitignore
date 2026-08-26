@@ -6,20 +6,26 @@ course-management-backend/course-management-backend/target/
 
 # Frontend build output
 course-management-frontend/course-management-frontend/build/
+course-management-frontend/course-management-frontend/dist/
 
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # IDE and editor folders
 .vscode/
 .idea/
 
-# Ignore nested git repos inside workspace
+# Ignore nested git repos
 course-management-frontend/course-management-frontend/.git/
 
 # OS files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+._*
 
 # Logs
 *.log
@@ -27,13 +33,6 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
-
-# macOS
-._*
-
-# Windows
-ehthumbs.db
-Desktop.ini
 
 # Maven wrapper logs
 .mvn/wrapper/maven-wrapper.log
@@ -50,6 +49,3 @@ coverage/
 *.njsproj
 *.sln
 *.sw?
-
-# Misc
-/dist/
