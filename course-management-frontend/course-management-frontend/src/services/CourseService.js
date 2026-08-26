@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8081/api/courses';
+const BASE_URL = 'https://course-management-backend-yrrq.onrender.com/api/courses';
 
 export const CourseService = {
   getAllCourses: async () => {

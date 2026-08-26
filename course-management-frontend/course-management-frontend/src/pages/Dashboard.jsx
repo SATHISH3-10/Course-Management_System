@@ -45,7 +45,7 @@ const [backendStatus, setBackendStatus] = useState("Checking...");
 useEffect(() => {
     const checkBackendStatus = async () => {
         try {
-            const response = await fetch("http://localhost:8081/api/courses");
+            const response = await fetch("https://course-management-backend-yrrq.onrender.com/api/courses");
 
             if (response.ok) {
                 setBackendStatus("Active");
